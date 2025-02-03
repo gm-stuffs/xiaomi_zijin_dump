@@ -1,0 +1,12 @@
+{
+	"##":"盐酷妆",
+	"Type":"Effect",
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/5_ModeYK/effect.json",
+			"Index":0,
+			"Mode":"All"
+		}
+	]
+}

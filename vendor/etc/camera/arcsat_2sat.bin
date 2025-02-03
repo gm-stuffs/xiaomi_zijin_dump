@@ -1,0 +1,12 @@
+Device = {K9E}
+Version = {1.0.0.0}
+CbSize = {0}
+NumberOfCameras = {2}
+CalibrationType = {1}
+CameraFov = {119, 80.3}
+CameraRatio = {0.6, 1.0}
+MappedFovRatio = {0.0, 0.0}
+MinViewRatio = {0.6}
+ActiveRange = {[0, 0, 3280, 2464], [0, 0, 9280, 6944]}
+SensorOutSize = {[0, 0, 3280, 2464], [0, 0, 4640, 3472]}
+RotationCorrection = {1, 0}

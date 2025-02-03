@@ -1,0 +1,12 @@
+{
+	"##":"元气妆",
+	"Type":"Effect",
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/6_ModeYQ/effect.json",
+			"Index":0,
+			"Mode":"All"
+		}
+	]
+}

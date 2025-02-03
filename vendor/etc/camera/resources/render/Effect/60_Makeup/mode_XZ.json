@@ -1,0 +1,12 @@
+{
+	"##":"下至妆",
+	"Type":"Effect",
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/4_ModeXZ/effect.json",
+			"Index":0,
+			"Mode":"All"
+		}
+	]
+}

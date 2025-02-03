@@ -1,0 +1,38 @@
+# push to /vendor/etc/camera to be read by main program
+algo_params:
+  common:
+    use_faceblur: false
+  deghost:
+    ev0_ev6_light: 0
+
+  denoise:
+    dldenoise_lux_thres: 250
+    dldenoise_iso_thres: 230
+
+    m_min_front_dlw: 0.3
+    m_max_front_dlw: 0.7
+    m_min_back_dlw: 0.1
+    m_max_back_dlw: 0.8
+    nlm_window_size: 5
+    nlm_template_size: 3
+
+  post_process:
+    # sharp
+    portrait_sharp_0: 3.0
+    portrait_sharp_1: 2.5
+    portrait_sharp_2: 1.8
+    
+
+    bg_gamma: 0.0
+    face_gamma: 0.2
+    bg_light_ratio: 2.0
+    cloth_constrast: 2.0
+    cloth_light: 2.0
+    face_contrast: 0.0
+    face_light: 0.0
+    bg_contrast: 0.0
+    bg_light: 0.0
+
+    
+
+    

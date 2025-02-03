@@ -1,0 +1,139 @@
+{
+    "version": "1.0",
+    "product": "zijin",
+    "support": {
+            "3rdcam_boost_enable": true,
+            "oom_update_support": true,
+            "inhibit_dynamic_enable": false,
+            "skip_camera_boost": true
+        },
+    "oom": {
+            "oom_level": "18432:0,23040:100,27648:200,64512:300,115712:800,216370:900",
+            "psi_level": "28,20,13,8"
+        },
+    "threshold": {
+            "skip_task": 2,
+            "skip_task_lower": 1,
+            "adj_threshold": 800,
+            "lowAdj_threshold": 0,
+            "cam_boost_threshold": 2097152,
+            "cam_boost_ext_mem": 768000,
+            "intercept_restart_time": 3000,
+            "kill_tag": 31,
+            "3rd_lowAdj_threshold": 50,
+            "3rd_kill_tag": 31
+    },
+    "configs": [
+        {
+            "name": "protect_list",
+            "config": [
+                "com.tencent.mobileqq",
+                "com.ss.android.lark.kami"
+            ]
+        },
+        {
+            "name": "white_list",
+            "config": [
+                "com.android.camera",
+                "android.process.media",
+                "com.android.traceur",
+                "com.miui.home",
+                "com.miui.screenrecorder",
+                "com.tencent.mm:push",
+                "com.tencent.mobileqq:MSF",
+                "com.ss.android.lark.kami:wschannel",
+                "org.telegram.messenger",
+                "org.thunderdog.challegram",
+                "com.facebook.orca",
+                "com.facebook.katana",
+                "jp.naver.line.android",
+                "com.phonetest.application:CameraMemoryWatcher",
+                "com.phonetest.application",
+                "android.camera.cts",
+                "android.camera.cts:errorLoggingServiceProcess",
+                "com.android.cts.verifier",
+                "com.miui.avpressuretest",
+                "com.android.mms:mms_service",
+                "com.xiaomi.xmsf:services",
+                "com.xiaomi.mtb",
+                "com.modemdebug",
+                "com.qualcomm.qti.autoregistration",
+                "com.lbe.security.miui",
+                "com.miui.aod",
+                "com.android.incallui",
+                "com.miui.voiceassist:core",
+                "com.mi.health:device",
+                "com.miui.tsmclient",
+                "com.baidu.carlife.xiaomi",
+                "com.miui.gallery"
+            ]
+        },
+        {
+            "name": "inhibit_app_list",
+            "config": [
+                "com.google.android.providers.media.module",
+                "com.sohu.inputmethod.sogou.xiaomi"
+            ]
+        }
+    ],
+    "configs_cn": [
+        {
+            "name": "white_list",
+            "config": [
+                "com.android.camera",
+                "com.miui.home",
+                "com.miui.screenrecorder",
+                "com.tencent.mm:push",
+                "com.tencent.mobileqq:MSF",
+                "com.ss.android.lark.kami:wschannel",
+                "android.process.media",
+                "com.android.traceur",
+                "com.phonetest.application:CameraMemoryWatcher",
+                "android.camera.cts",
+                "android.camera.cts:errorLoggingServiceProcess",
+                "com.android.cts.verifier",
+                "com.miui.avpressuretest",
+                "com.android.mms:mms_service",
+                "com.xiaomi.xmsf:services",
+                "com.xiaomi.mtb",
+                "com.modemdebug",
+                "com.qualcomm.qti.autoregistration",
+                "com.lbe.security.miui",
+                "com.miui.aod",
+                "com.android.incallui",
+                "com.miui.voiceassist:core",
+                "com.mi.health:device",
+                "com.miui.tsmclient",
+                "com.baidu.carlife.xiaomi",
+                "com.miui.gallery"
+            ]
+        },
+        {
+            "name": "inhibit_app_list",
+            "config": [
+                "com.google.android.providers.media.module",
+                "com.sohu.inputmethod.sogou.xiaomi",
+                "com.google.process.gservices",
+                "com.google.android.gms",
+                "com.google.android.gms.persistent",
+                "com.google.process.gapps",
+                "com.android.vending"
+            ]
+        }
+    ],
+    "oom_6Gmem": {
+            "oom_level": "18432:0,23040:100,27648:200,85000:250,127500:800,161280:950"
+        },
+    "threshold_6Gmem": {
+            "skip_task": 2,
+            "skip_task_lower": 1,
+            "adj_threshold": 701,
+            "lowAdj_threshold": 0,
+            "lowerAdj_freeMem_threshold": 409600,
+            "cam_boost_threshold": 1572864,
+            "update_state_delay_ms": 5000,
+            "intercept_restart_time": 3000,
+            "3rdcam_boost_threshold": 1363148,
+            "3rd_skip_task_lower": 2
+        }
+}

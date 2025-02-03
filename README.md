@@ -1,0 +1,14 @@
+# missi_phone_cn-user 14 UKQ1.231108.001 V816.0.11.0.ULPCNXM release-keys
+- manufacturer: xiaomi
+- platform: lahaina
+- codename: zijin
+- flavor: missi_phone_cn-user
+- release: 14
+- id: UKQ1.231108.001
+- incremental: V816.0.11.0.ULPCNXM
+- tags: release-keys
+- fingerprint: Xiaomi/zijin/zijin:13/RKQ1.211001.001/V816.0.11.0.ULPCNXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: missi_phone_cn-user-14-UKQ1.231108.001-V816.0.11.0.ULPCNXM-release-keys
+- repo: xiaomi_zijin_dump
